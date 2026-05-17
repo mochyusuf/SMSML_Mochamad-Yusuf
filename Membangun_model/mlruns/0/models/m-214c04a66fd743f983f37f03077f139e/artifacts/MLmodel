@@ -1,0 +1,24 @@
+artifact_path: file:D:/Learn/Microsoft Elevate Training Center/Membangun Sistem Machine
+  Learning/SMSML_Mochamad Yusuf/Membangun_model/mlruns/0/models/m-214c04a66fd743f983f37f03077f139e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-214c04a66fd743f983f37f03077f139e
+model_size_bytes: 2891360
+model_uuid: m-214c04a66fd743f983f37f03077f139e
+prompts: null
+run_id: fdb4892b5bfe4f29947b9fd77b700e68
+utc_time_created: '2026-05-16 09:54:36.149168'

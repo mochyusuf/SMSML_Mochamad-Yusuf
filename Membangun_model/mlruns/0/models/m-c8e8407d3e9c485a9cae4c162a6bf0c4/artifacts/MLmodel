@@ -1,0 +1,30 @@
+artifact_path: file:D:/Learn/Microsoft Elevate Training Center/Membangun Sistem Machine
+  Learning/SMSML_Mochamad Yusuf/Membangun_model/mlruns/0/models/m-c8e8407d3e9c485a9cae4c162a6bf0c4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.12.0
+model_id: m-c8e8407d3e9c485a9cae4c162a6bf0c4
+model_size_bytes: 2891308
+model_uuid: m-c8e8407d3e9c485a9cae4c162a6bf0c4
+prompts: null
+run_id: fdb4892b5bfe4f29947b9fd77b700e68
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1, 5]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-05-16 09:54:28.069559'
